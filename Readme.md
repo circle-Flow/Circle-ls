@@ -27,19 +27,24 @@ CRC source files end with `.crc` and compile into `.crcb` bytecode binaries.
 | 🌍 **Cross-Platform** | Linux, macOS, Windows, Android |
 
 ---
-crc-lang/
+#crc-lang/
+
 ├── compiler/ # Python frontend compiler
+
 ├── vm/ # Rust bytecode runtime (VM + JIT)
+
 ├── examples/ # Example .crc programs
+
 ├── docs/ # Specs and developer documentation
+
 ├── tests/ # Automated testing suite
+
 └── tools/ # Profiling and benchmarking utilities
 
 
 ---
 
-## 🧱 Example Program
-
+# 🧱 Example Program 
 `examples/hello.crc`
 ```crc
 fn main() {
@@ -57,7 +62,7 @@ Hello, World!
 Execution time: 0.0000000000001ms
 
 
-🧰 Getting Started
+Getting Started
 Requirements
 
 Python 3.12+
@@ -81,15 +86,15 @@ Run Bytecode:
 cargo run -p vm -- examples/hello.crcb
 Design Goals
 
-Zero-runtime overhead
+-Zero-runtime overhead
 
-Predictable performance
+-Predictable performance
 
-Cross-platform binaries
+-Cross-platform binaries
 
-Parallel by default
+-Parallel by default
 
-Safe systems programming
+-Safe systems programming
 
 CRC represents the foundation of CircleOS applications, designed to outperform Python while maintaining developer friendliness.
 
@@ -101,8 +106,5 @@ See docs/roadmap.md
 ⚖️ License
 
 Licensed under the MIT License.
-See LICENSE
- for full details.
-
-## 📁 Project Structure
+See LICENSE for full details.
 
