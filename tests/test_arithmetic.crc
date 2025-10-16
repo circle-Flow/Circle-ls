@@ -1,0 +1,2 @@
+# simple arithmetic assigned to x, result will be left on stack and printed by VM HALT
+x = 1 + 2 * 3
