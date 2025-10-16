@@ -113,7 +113,6 @@ for the dreamers building the future of computing with CircleOS.
 
 ## ⚖️ `LICENSE`
 
-```text
 MIT License
 
 Copyright (c) 2025 CircleOS
