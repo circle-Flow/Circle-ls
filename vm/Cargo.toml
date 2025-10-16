@@ -1,0 +1,11 @@
+[package]
+name = "crcvm"
+version = "0.1.0"
+edition = "2021"
+authors = ["You <you@example.com>"]
+description = "CRC Virtual Machine (Rust backend) - executes .crcb bytecode"
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+byteorder = "1.4"
