@@ -1,0 +1,4 @@
+# simple assignment chain
+a = 10
+b = a + 5
+c = b * 2
